@@ -40,7 +40,7 @@
         position: relative;
         width: 90%;
         height: 250px;
-    
+        margin: 0 auto;
         overflow: hidden;
         color: #fff;
         cursor: pointer;

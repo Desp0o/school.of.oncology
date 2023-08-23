@@ -32,9 +32,12 @@
     }
 
     .conference_cards{
-        flex-wrap: wrap;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+    }
+
+    .compl_proj_title{
+        margin-bottom: 20px;
     }
 }

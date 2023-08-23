@@ -25,7 +25,7 @@ export default function AboutUs() {
             </div>
 
             <div className='links_in_about'>
-              <LinkButtonComponent link="/pages/gso/completedProjectsGSO/conference1" name="ჩატარებული პროექტები" />
+              <LinkButtonComponent link="/pages/gso/completedProjectsGSO" name="ჩატარებული პროექტები" />
               <LinkButtonComponent link="/" name="სამომავლო პროექტები" />
               <LinkButtonComponent link="/" name="სახელმძღვანელოები" />
               <LinkButtonComponent link="/" name="პაციენტებისთვის" />
@@ -33,10 +33,10 @@ export default function AboutUs() {
 
         </div>
 
-        <Footer />
+        
       </div>
 
-      
+
     </>
   )
 }

@@ -28,9 +28,8 @@ export default function CompletedProjectsGSO() {
             }
           </div>
 
-            <Footer />
+          
         </div>
-       
       </>
     )
 }

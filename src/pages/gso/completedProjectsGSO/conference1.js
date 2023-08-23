@@ -58,8 +58,6 @@ export default function Conference1() {
                 </SlideshowLightbox> 
                 </div>
                 
-                <div className="marginTop100" />
-                <Footer />
             </div>
             
         </>
