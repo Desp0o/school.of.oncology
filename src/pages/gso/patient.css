@@ -1,0 +1,26 @@
+.patient{
+    width: 100%;
+    min-height: calc(100vh - 150px);
+    padding-left: 250px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding-top: 80px;
+}
+
+.patient_title{
+    color: var(--title-color);
+    font-size: 28px;
+    text-align: center;
+}
+
+
+@media (max-width:800px) {
+    .patient{
+        width: 100%;
+        min-height: calc(100vh - 150px);
+        padding-left: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        padding-top: 120px;
+    }
+}

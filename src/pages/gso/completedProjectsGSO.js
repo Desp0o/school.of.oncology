@@ -1,6 +1,5 @@
 import React from 'react'
 import "./completedProjectsGSO.css"
-import Footer from "../../components/footer/footer"
 import { gsoConferences } from '../../components/gsoDB'
 import CardComponent from "../../components/cardComponent/CardComponent"
 

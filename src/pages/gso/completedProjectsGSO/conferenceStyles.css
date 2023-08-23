@@ -30,6 +30,7 @@
 
 .lightBox_image{
     width: 320px;
+    height: auto;
 }
 
 .image_gallery{
@@ -47,6 +48,21 @@
     display: flex;
     gap: 10px 10px;
     flex-wrap: wrap;
+}
+.download{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 10px;
+    color: var(--gray);
+}
+
+.linkTag{
+    color: var(--shidni);
+    font-size: 22px;
+    cursor: pointer;
 }
 
 @media (max-width:800px) {

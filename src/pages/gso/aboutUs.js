@@ -26,9 +26,9 @@ export default function AboutUs() {
 
             <div className='links_in_about'>
               <LinkButtonComponent link="/pages/gso/completedProjectsGSO" name="ჩატარებული პროექტები" />
-              <LinkButtonComponent link="/" name="სამომავლო პროექტები" />
-              <LinkButtonComponent link="/" name="სახელმძღვანელოები" />
-              <LinkButtonComponent link="/" name="პაციენტებისთვის" />
+              <LinkButtonComponent link="/pages/gso/futureProjects" name="სამომავლო პროექტები" />
+              <LinkButtonComponent link="/pages/gso/books" name="სახელმძღვანელოები" />
+              <LinkButtonComponent link="/pages/gso/patient" name="პაციენტებისთვის" />
             </div>
 
         </div>

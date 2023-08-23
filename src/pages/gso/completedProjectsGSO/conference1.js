@@ -31,8 +31,6 @@ export default function Conference1() {
     ]
 
 
-    const [index, setIndex] = useState(-1);
-
     return (
         <>
             <div className="conference1">

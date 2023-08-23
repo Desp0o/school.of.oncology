@@ -11,8 +11,9 @@ export const gsoConferences = [
 
     {
         image: `${conference2}`,
-        link:'/',
+        link:'/pages/gso/completedProjectsGSO/conference2',
         title:'საერთაშორისო კონფერენცია 2'
     },
+    
 
 ]
