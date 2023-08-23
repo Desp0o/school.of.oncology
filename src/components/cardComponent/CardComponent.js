@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 export default function CardComponent(props) {
   return (
     <>
-        <Link to='/'>
+        <Link to={props.link}>
             <div className='card'>
                 <img src={props.cover} className='card_background' alt='card bg' />
                 <p>{props.title}</p>

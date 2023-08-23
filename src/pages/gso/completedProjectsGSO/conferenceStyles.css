@@ -1,0 +1,51 @@
+.conference1{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-left: 250px;
+
+    padding-top: 80px;
+}
+
+.conf1_title{
+    font-size: 28px;
+    color: var(--title-color);
+    text-align: center;
+    padding: 0 100px 0 100px;
+}
+
+.conf1_desc,
+.competitors{
+    margin-top: 20px;
+    padding: 0 100px 0 100px;
+    color: var(--gray);
+    line-height: 24px;
+}
+
+.gallery_title{
+    color: var(--title-color);
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.lightBox_image{
+    width: 320px;
+}
+
+.image_gallery{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    margin-top: 20px;
+}
+
+.image_layout{
+    display: flex;
+    gap: 10px 10px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}

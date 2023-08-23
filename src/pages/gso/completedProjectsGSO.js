@@ -1,6 +1,6 @@
 import React from 'react'
 import "./completedProjectsGSO.css"
-
+import Footer from "../../components/footer/footer"
 import { gsoConferences } from '../../components/gsoDB'
 import CardComponent from "../../components/cardComponent/CardComponent"
 
@@ -17,6 +17,7 @@ export default function CompletedProjectsGSO() {
                 return(
                   
                     <CardComponent 
+                          link={card.link}
                           cover={card.image} 
                           title={card.title} 
                           key={index}
@@ -27,6 +28,7 @@ export default function CompletedProjectsGSO() {
             }
           </div>
 
+            <Footer />
         </div>
        
       </>
