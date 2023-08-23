@@ -3,7 +3,4 @@
     height: 150px;
     box-sizing: border-box;
     background-color: var(--title-color);
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }

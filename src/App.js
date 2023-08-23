@@ -5,6 +5,7 @@ import AboutUs from "./pages/gso/aboutUs";
 import GsgAbout from "./pages/gsg/gsgAbout";
 import CompletedProjectsGSO from "./pages/gso/completedProjectsGSO";
 import Conference1 from "./pages/gso/completedProjectsGSO/conference1";
+import Footer from "./components/footer/footer";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/pages/gso/completedProjectsGSO" element={<CompletedProjectsGSO />} />
         <Route exact path="/pages/gso/completedProjectsGSO/conference1" element={<Conference1 />}/>
       </Routes>
+      <Footer />
     </>
   );
 }
