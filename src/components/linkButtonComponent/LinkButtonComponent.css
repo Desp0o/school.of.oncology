@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     transition: all .3s ease;
+    border-radius: 10px;
 }
 
 .btn_component:hover{

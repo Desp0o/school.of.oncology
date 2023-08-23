@@ -38,7 +38,7 @@ export default function Navbar() {
 
             <div className='links'>
               <Link to="/pages/gso/AboutUs" className='nav_links'>ჩვენ შესახებ</Link>
-              <Link to="/" className='nav_links'>ჩატარებული პროექტები</Link>
+              <Link to="/pages/gso/completedProjectsGSO" className='nav_links'>ჩატარებული პროექტები</Link>
               <Link to="/" className='nav_links'>სამომავლო პროექტები</Link>
               <Link to="/" className='nav_links'>სახელმძღვანელოები</Link>
               <Link to="/" className='nav_links'>პაციენტებისთვის</Link>
@@ -53,7 +53,7 @@ export default function Navbar() {
 
             <div className='links'>
               <Link to="/pages/gsg/gsgAbout" className='nav_links'>ჩვენ შესახებ</Link>
-              <Link to="/" className='nav_links'>ჩატარებული პროექტები</Link>
+              <Link to="" className='nav_links'>ჩატარებული პროექტები</Link>
               <Link to="/" className='nav_links'>სამომავლო პროექტები</Link>
               <Link to="/" className='nav_links'>სახელმძღვანელოები</Link>
               <Link to="/" className='nav_links'>ფეისბუქ ჯგუფი</Link>
@@ -71,7 +71,7 @@ export default function Navbar() {
 
               <div className='links'>
                 <Link to="/pages/gso/AboutUs" className='nav_links'>ჩვენ შესახებ</Link>
-                <Link to="/" className='nav_links'>ჩატარებული პროექტები</Link>
+                <Link to="/pages/gso/completedProjectsGSO" className='nav_links'>ჩატარებული პროექტები</Link>
                 <Link to="/" className='nav_links'>სამომავლო პროექტები</Link>
                 <Link to="/" className='nav_links'>სახელმძღვანელოები</Link>
                 <Link to="/" className='nav_links'>პაციენტებისთვის</Link>
@@ -86,7 +86,7 @@ export default function Navbar() {
 
             <div className='links'>
               <Link to="/pages/gsg/gsgAbout" className='nav_links'>ჩვენ შესახებ</Link>
-              <Link to="/" className='nav_links'>ჩატარებული პროექტები</Link>
+              <Link to="/pages/gsg/completedProjectsGSG" className='nav_links'>ჩატარებული პროექტები</Link>
               <Link to="/" className='nav_links'>სამომავლო პროექტები</Link>
               <Link to="/" className='nav_links'>სახელმძღვანელოები</Link>
               <Link to="/" className='nav_links'>ფეისბუქ ჯგუფი</Link>

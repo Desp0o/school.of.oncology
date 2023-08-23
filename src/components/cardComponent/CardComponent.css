@@ -1,0 +1,36 @@
+.card{
+    position: relative;
+    width: 450px;
+    height: 250px;
+
+    overflow: hidden;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card_background{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+    transition: all .3s ease;
+    filter:brightness(0.4);
+}
+
+.card:hover .card_background{
+    transform: scale(1.1);
+    transition: all .3s ease;
+    filter: brightness(1);
+}
+
+.card p{
+    background-color: var(--shidni);
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 3;
+
+    font-size: 20px;
+}

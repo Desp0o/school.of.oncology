@@ -1,0 +1,25 @@
+.completed_projects{
+    padding-top: 80px;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+
+    padding-left: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.compl_proj_title{
+    font-size: 28px;
+    color: var(--title-color);
+    margin-bottom: 50px;
+}
+
+.conference_cards{
+    display: flex;
+    gap: 20px;
+}
