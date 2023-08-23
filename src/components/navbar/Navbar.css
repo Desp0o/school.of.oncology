@@ -1,0 +1,150 @@
+.navbar{
+    position: fixed;
+    z-index: 6;
+    left: 0;
+    top: 0;
+
+    box-sizing: border-box;
+    height: 100vh;
+    width: 250px;
+
+    padding-top: 50px;
+
+    border-right: 1px solid #5d5d5d2c;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    background-color: #fff;
+}
+
+.navbar_btn{
+    display: none;
+}
+
+.dashboard{
+    display: none;
+}
+
+.navbar_gso,
+.navbar_gsg{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navbar_header1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.navabr_logo_1{
+    height:30px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav_links{
+    position: relative;
+    color: var(--title-color);
+    margin-left: 20px;
+    transition: all .2s ease;
+}
+
+.nav_links:hover{
+    color: var(--shidni);
+    transition: all .2s ease;
+}
+
+.nav_links::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -10px;
+    height: 1px;
+    width: 90%;
+    background-color: #5d5d5d2c;
+}
+
+
+@media (max-width:800px) {
+    .navbar{
+        height: 70px;
+        width: 100%;
+    
+        padding-top: 0px;
+        border-right: unset;
+
+        border-bottom: 1px solid #5d5d5d2c;
+
+        -webkit-box-shadow: 0px 4px 7px -4px rgba(0, 0, 0, 0.611);
+        -moz-box-shadow: 0px 4px 7px -4px rgba(0,0,0,0.75);
+        box-shadow: 0px 4px 7px -4px rgba(0,0,0,0.75);
+
+        background-color: #fff;
+
+    }
+    .navbar_gso,
+    .navbar_gsg{
+        display: none;
+    }
+
+    .navbar_btn{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+
+        width: 40px;
+        height: 40px;
+    }
+
+    .dashboard{
+        padding-top: 90px;
+        display: flex;
+        width: 250px;
+        height: 100vh;
+        flex-direction: column;
+        position: fixed;
+        z-index: 5;
+        right: -260px;
+        top: 0;
+        background-color: #fff;
+        border-left: 1px solid #5d5d5d2c;
+        gap: 40px;
+
+        -webkit-box-shadow: -4px 0px 7px 0px rgba(0,0,0,0.511);
+        -moz-box-shadow: -4px 0px 7px 0px rgba(0,0,0,0.511);
+        box-shadow: -4px 0px 7px 0px rgba(0,0,0,0.511);
+
+        transition: all .3s ease;
+    }
+
+    .dashboard_active{
+        right: 0;
+        transition: all .3s ease;
+    }
+
+    .navbar_gso_res,
+    .navbar_gsg_res{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .navabr_logo_1{
+        height: 20px;
+    }
+
+    .nav_links{
+        
+    }
+
+
+}

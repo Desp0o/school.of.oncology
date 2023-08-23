@@ -1,0 +1,36 @@
+.gso_about{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    padding-left: 250px;
+    padding-top: 60px;
+}
+    
+
+.gso-about-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gso_about_title{
+    color: var(--title-color);
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gs0_about_desc{
+    padding: 0 100px 0 100px;
+    margin-top: 10px;
+    color: var(--gray);
+    line-height: 24px;
+}
+
+.links_in_about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
