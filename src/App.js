@@ -15,6 +15,8 @@ import Patient from "./pages/gso/patient";
 import BooksGSG from "./pages/gsg/booksGSG";
 import CompletedProjectsGSG from "./pages/gsg/completedProjectsGSG";
 import Webinar1 from "./pages/gsg/completedProjectsGSG/webinar1";
+import FutureProjectsGSG from "./pages/gsg/futureProjectsGSG";
+import UpcomingConferenceGSG from "./pages/gsg/futureProjects/upcomingConferenceGSG";
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
         <Route exact path="/pages/gsg/booksGSG" element={<BooksGSG />}/>
         <Route exact path="/pages/gsg/completedProjectsGSG" element={<CompletedProjectsGSG />} />
         <Route exact path="/pages/gsg/completedProjectsGSG/webinar1" element={<Webinar1 />} />
+        <Route exact path="/pages/gsg/futureProjectsGSG" element={<FutureProjectsGSG />} />
+        <Route exact path="/pages/gsg/completedProjectsGSG/upcomingConferenceGSG" element={<UpcomingConferenceGSG />} />
       </Routes>
       <Footer />
     </>

@@ -33,12 +33,13 @@
         padding-left: 0px;
         padding-right: 0px;
         padding-top:120px;
+        align-items: center;
     }
 
     .future_cards{
         width: 100%;
         padding-left: 0px;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
     }
 }    

@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./completedProjectsGSO.css"
 import { gsoConferences } from '../../components/gsoDB'
 import CardComponent from "../../components/cardComponent/CardComponent"
+import { Link } from 'react-router-dom'
 
 export default function CompletedProjectsGSO() {
+
+  useEffect(()=>{
+    
+
+  },[])
   return (
       <>
         <div className='completed_projects'>
@@ -15,13 +21,12 @@ export default function CompletedProjectsGSO() {
               gsoConferences.map((card,index) => {
                 return(
                   
-                    <CardComponent 
-                          link={card.link}
-                          cover={card.image} 
-                          title={card.title} 
-                          key={index}
-                          alt="conferension image"
-                    />
+                  <Link to={card.link} key={index}>
+                  <div className='card'>
+                      <img src={card.image} className='card_background' alt='card bg' />
+                      <p>{card.title}</p>
+                  </div>
+              </Link>
                 )
               })
             }
