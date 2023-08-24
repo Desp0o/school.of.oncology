@@ -84,7 +84,7 @@ export default function Navbar() {
                 <Link to="/pages/gso/futureProjects" className='nav_links' onClick={linkHandler}>სამომავლო პროექტები</Link>
                 <Link to="/pages/gso/books" className='nav_links' onClick={linkHandler}>სახელმძღვანელოები</Link>
                 <Link to="/pages/gso/patient" className='nav_links' onClick={linkHandler}>პაციენტებისთვის</Link>
-                <Link to="/" className='nav_links' onClick={linkHandler}>ფეისბუქ ჯგუფი</Link>
+                <Link to="https://www.facebook.com/groups/178935787469269" target='_blank' rel='noopener noreferrer' className='nav_links' onClick={linkHandler}>ფეისბუქ ჯგუფი</Link>
               </div>
             </div>
 
@@ -98,7 +98,7 @@ export default function Navbar() {
               <Link to="/pages/gsg/completedProjectsGSG" className='nav_links' onClick={linkHandler}>ჩატარებული პროექტები</Link>
               <Link to="/pages/gsg/futureProjectsGSG" className='nav_links' onClick={linkHandler}>სამომავლო პროექტები</Link>
               <Link to="/pages/gsg/booksGSG" className='nav_links' onClick={linkHandler}>სახელმძღვანელოები</Link>
-              <Link to="/" className='nav_links' onClick={linkHandler}>ფეისბუქ ჯგუფი</Link>
+              <Link to="https://www.facebook.com/groups/178935787469269" target='_blank' rel='noopener noreferrer' className='nav_links' onClick={linkHandler}>ფეისბუქ ჯგუფი</Link>
             </div>
           </div>
         </div>

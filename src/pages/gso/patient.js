@@ -11,9 +11,9 @@ export default function Patient() {
 
         <div className='patient_doc_list'>
             {
-              patientDBgso.map((card) => {
+              patientDBgso.map((card,index) => {
                 return(
-                    <PatientCardComponent title={card.title} cover={card.cover} link={card.link} />
+                    <PatientCardComponent title={card.title} cover={card.cover} link={card.link} key={index}/>
                 )
               })
             } 
