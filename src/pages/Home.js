@@ -1,18 +1,22 @@
 import "./Home.css"
 import schoolLogo from "../utils/images/GeorgianSchoolOf oncology.webp"
 import societyLogo from "../utils/images/GeorgianSocietyOfGeriatricOncology.webp"
-import { useEffect, useState } from "react"
+import {useRef } from "react"
+import emailjs from '@emailjs/browser';
 
 export default function Home(){
 
-    const [values, setValues] = useState({})
-    const valueHandler = (e)=> {
-        setValues({ ...values, [e.target.name]: e.target.value })
-    }
-
-    useEffect(()=>{
-        console.log(values);
-    },[values])
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_lypl80b', 'template_x85nblb', form.current, 'IC2qr9Obg8is6cSEL')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
 
     return(
         <>
@@ -33,7 +37,7 @@ export default function Home(){
                     
                 </div>
 
-                <div className="form">
+                <form className="form" ref={form}>
                     <h1 className="form_title">შემოგვიერთდით</h1>
 
                     <div className="name_title_input">
@@ -45,7 +49,6 @@ export default function Home(){
                                 type="text" 
                                 className="all_input name_lastName" 
                                 placeholder="სახელი"
-                                onChange={valueHandler}
                             />
                         </div>
 
@@ -57,7 +60,6 @@ export default function Home(){
                                 type="text" 
                                 className="all_input name_lastName" 
                                 placeholder="გვარი"
-                                onChange={valueHandler}
                             />
                         </div>
                     </div>
@@ -70,7 +72,6 @@ export default function Home(){
                             type="email" 
                             className="all_input" 
                             placeholder="ელ.ფოსტა"
-                            onChange={valueHandler}
                         />
                     </div>
 
@@ -82,12 +83,11 @@ export default function Home(){
                                 type="date" 
                                 className="all_input" 
                                 placeholder="დდ/თთ/წწ"
-                                onChange={valueHandler}
                             />
                     </div>
 
                     <div className="academic_status">
-                    <select  name="status"  className="all_input" onInput={valueHandler}>
+                    <select  name="status"  className="all_input">
                         <option value="s"  hidden>აირჩიეთ ხარისხი</option>
                         <option>სტუდენტი</option>
                         <option>რეზიდენტი</option>
@@ -98,9 +98,9 @@ export default function Home(){
 
                     </div>
 
-                    <div className="btn_send">გაგზავნა</div>
+                    <div onClick={sendEmail} className="btn_send">გაგზავნა</div>
                     
-                </div>
+                </form>
             </div>
         </>
     )

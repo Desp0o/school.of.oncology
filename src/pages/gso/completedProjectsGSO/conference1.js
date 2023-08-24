@@ -1,6 +1,4 @@
-import { useState } from "react";
 import "./conferenceStyles.css"
-import Footer  from "../../../components/footer/footer"
 
 import con1 from "../../../utils/images/conference1/con0.webp"
 import con2 from "../../../utils/images/conference1/con1.webp"
@@ -47,7 +45,7 @@ export default function Conference1() {
                     {
                         imageArr.map((image,index)=>{
                             return(
-                                <img className="lightBox_image" src={image} key={index} loading="lazy"/>
+                                <img className="lightBox_image" alt="gallery" src={image} key={index} loading="lazy"/>
                             )
                         })
                     }

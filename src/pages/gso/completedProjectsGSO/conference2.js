@@ -1,6 +1,4 @@
-import { useState } from "react";
 import "./conferenceStyles.css"
-import Footer  from "../../../components/footer/footer"
 
 import con1 from "../../../utils/images/conference2/con0.webp"
 import con2 from "../../../utils/images/conference2/con1.webp"
@@ -22,7 +20,6 @@ import con17 from "../../../utils/images/conference2/con17.webp"
 import con19 from "../../../utils/images/conference2/con19.webp"
 import con20 from "../../../utils/images/conference2/con20.webp"
 import con21 from "../../../utils/images/conference2/con21.webp"
-import con22 from "../../../utils/images/conference2/con22.webp"
 
 import {SlideshowLightbox} from 'lightbox.js-react'
 import 'lightbox.js-react/dist/index.css'
@@ -56,7 +53,7 @@ export default function Conference2() {
                     {
                         imageArr.map((image,index)=>{
                             return(
-                                <img className="lightBox_image" src={image} key={index} loading="lazy"/>
+                                <img className="lightBox_image" alt="gallery item" src={image} key={index} loading="lazy"/>
                             )
                         })
                     }

@@ -4,8 +4,8 @@ import "./Navbar.css"
 
 import schoolLogo from "../../utils/images/GeorgianSchoolOf oncology.webp"
 import societyLogol from "../../utils/images/GeorgianSocietyOfGeriatricOncology.webp"
-import navbarTabs from "../../utils/icons/hamburger.png"
-import closeX from "../../utils/icons/close.png"
+import navbarTabs from "../../utils/icons/hamburger.webp"
+import closeX from "../../utils/icons/close.webp"
 
 export default function Navbar() {
 
@@ -35,7 +35,10 @@ export default function Navbar() {
     <>
         <div className='navbar'>
 
+          <Link to='/' className='navbar_icon'>GSO-GSGO</Link>
           <img src={navbarIcons} alt='navbar sticks' className='navbar_btn' onClick={burgerHandler}/>
+
+          <Link to="/" className='nav_links home_link'>მთავარი</Link>
 
           <div className='navbar_gso'>
             <div className='navbar_header1'>

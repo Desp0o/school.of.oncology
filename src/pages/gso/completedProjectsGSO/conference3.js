@@ -1,9 +1,5 @@
 import "./conferenceStyles.css"
 
-import {SlideshowLightbox} from 'lightbox.js-react'
-import 'lightbox.js-react/dist/index.css'
-
-
 export default function Conference2() {
 
     const pdfLink = (url) => {

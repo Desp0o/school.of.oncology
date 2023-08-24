@@ -1,6 +1,5 @@
 import React from 'react'
 import "./gsgAbout.css"
-import Footer from '../../components/footer/footer'
 import LinkButtonComponent from '../../components/linkButtonComponent/LinkButtonComponent'
 import gsg from "../../utils/images/GeorgianSocietyOfGeriatricOncology.webp"
 
