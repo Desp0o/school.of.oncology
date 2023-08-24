@@ -1,0 +1,13 @@
+.gsg_conferences{
+    justify-content: flex-start !important;
+    width: 100% !important;
+    margin-left: 100px;
+}
+
+@media (max-width:800px) {
+    .gsg_conferences{
+        justify-content: unset;
+        width: unset;
+        margin-left: 0px;
+    }
+}

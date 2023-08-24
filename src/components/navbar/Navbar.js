@@ -59,9 +59,9 @@ export default function Navbar() {
 
             <div className='links'>
               <Link to="/pages/gsg/gsgAbout" className='nav_links'>ჩვენ შესახებ</Link>
-              <Link to="" className='nav_links'>ჩატარებული პროექტები</Link>
+              <Link to="/pages/gsg/completedProjectsGSG" className='nav_links'>ჩატარებული პროექტები</Link>
               <Link to="/" className='nav_links'>სამომავლო პროექტები</Link>
-              <Link to="/" className='nav_links'>სახელმძღვანელოები</Link>
+              <Link to="/pages/gsg/booksGSG" className='nav_links'>სახელმძღვანელოები</Link>
               <Link to="/" className='nav_links'>ფეისბუქ ჯგუფი</Link>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function Navbar() {
               <Link to="/pages/gsg/gsgAbout" className='nav_links' onClick={linkHandler}>ჩვენ შესახებ</Link>
               <Link to="/pages/gsg/completedProjectsGSG" className='nav_links' onClick={linkHandler}>ჩატარებული პროექტები</Link>
               <Link to="/" className='nav_links' onClick={linkHandler}>სამომავლო პროექტები</Link>
-              <Link to="/" className='nav_links' onClick={linkHandler}>სახელმძღვანელოები</Link>
+              <Link to="/pages/gsg/booksGSG" className='nav_links' onClick={linkHandler}>სახელმძღვანელოები</Link>
               <Link to="/" className='nav_links' onClick={linkHandler}>ფეისბუქ ჯგუფი</Link>
             </div>
           </div>

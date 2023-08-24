@@ -6,11 +6,14 @@ import GsgAbout from "./pages/gsg/gsgAbout";
 import CompletedProjectsGSO from "./pages/gso/completedProjectsGSO";
 import Conference1 from "./pages/gso/completedProjectsGSO/conference1";
 import Conference2 from "./pages/gso/completedProjectsGSO/conference2";
+import Conference3 from "./pages/gso/completedProjectsGSO/conference3";
 import Footer from "./components/footer/footer";
 import FutureProjects from "./pages/gso/futureProjects";
 import UpcomingConference from "./pages/gso/futureProjectsGSO/upcomingConference";
 import Books from "./pages/gso/books";
 import Patient from "./pages/gso/patient";
+import BooksGSG from "./pages/gsg/booksGSG";
+import CompletedProjectsGSG from "./pages/gsg/completedProjectsGSG";
 
 function App() {
   return (
@@ -27,6 +30,11 @@ function App() {
         <Route exact path="/pages/gso/completedProjectsGSO/upcomingConference" element={<UpcomingConference />}/>
         <Route exact path="/pages/gso/books" element={<Books />}/>
         <Route exact path="/pages/gso/patient" element={<Patient />}/>
+        <Route exact path="/pages/gso/completedProjectsGSO/conference3" element={<Conference3 />}/>
+
+
+        <Route exact path="/pages/gsg/booksGSG" element={<BooksGSG />}/>
+        <Route exact path="/pages/gsg/completedProjectsGSG" element={<CompletedProjectsGSG />} />
       </Routes>
       <Footer />
     </>

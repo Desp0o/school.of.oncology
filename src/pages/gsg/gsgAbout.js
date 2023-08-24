@@ -23,14 +23,12 @@ export default function GsgAbout() {
             </div>
 
             <div className='links_in_about'>
-              <LinkButtonComponent link="/" name="ჩატარებული პროექტები" />
+              <LinkButtonComponent link="/pages/gsg/completedProjectsGSG" name="ჩატარებული პროექტები" />
               <LinkButtonComponent link="/" name="სამომავლო პროექტები" />
-              <LinkButtonComponent link="/" name="სახელმძღვანელოები" />
+              <LinkButtonComponent link="/pages/gsg/booksGSG" name="სახელმძღვანელოები" />
             </div>
 
         </div>
-
-        <Footer />
       </div>
   )
 }

@@ -1,5 +1,6 @@
 import conference1 from "../utils/images/conference1.webp"
 import conference2 from "../utils/images/conference2.webp"
+import conference3 from "../utils/images/conference3.webp"
 
 
 export const gsoConferences = [
@@ -14,6 +15,13 @@ export const gsoConferences = [
         link:'/pages/gso/completedProjectsGSO/conference2',
         title:'საერთაშორისო კონფერენცია 2'
     },
+
+    {
+        image: `${conference3}`,
+        link:'/pages/gso/completedProjectsGSO/conference3',
+        title:'საერთაშორისო კონფერენცია 3'
+    },
     
 
 ]
+

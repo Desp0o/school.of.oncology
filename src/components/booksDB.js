@@ -6,6 +6,9 @@ import practicalMedical from "../utils/images/books/Practical Medical Oncology T
 import oxfordDesk from "../utils/images/books/Oxford Desk Reference - Oncology, 2e.webp"
 import lisaH from "../utils/images/books/lisa H.webp"
 
+import geriatricOncology from "../utils/images/books/geriatricOncology_cover.webp"
+import geriatricAssasment from "../utils/images/books/geriatricAssasment_cover.webp"
+
 export const BooksDB = [
     {
         title: 'Handbook of Quality of Life In Cancer',
@@ -48,4 +51,20 @@ export const BooksDB = [
         cover: `${lisaH}`,
         link: 'https://gso-gsgo.ge/books/Cancer Immunotherapy Principles and Practice_ Reflects Major Advances in Field of Immuno-Oncology and Cancer Immunology.pdf'
     },
+]
+
+
+
+export const GsgBooks = [
+    {
+        title: 'Handbook of geriatric assessment',
+        cover: `${geriatricAssasment}`,
+        link: 'https://gso-gsgo.ge/books/Handbook of geriatric assessment .pdf'
+    },
+
+    {
+        title: 'Geriatric Oncology by Martine Extermann',
+        cover: `${geriatricOncology}`,
+        link: 'https://gso-gsgo.ge/books/Geriatric Oncology by Martine Extermann.pdf'
+    }
 ]
