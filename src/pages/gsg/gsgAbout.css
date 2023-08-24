@@ -1,6 +1,6 @@
 .gsg_about{
     box-sizing: border-box;
-    min-height: 100vh;
+    min-height: calc(100vh - 100px);
     width: 100%;
     padding-left: 250px;
     padding-top: 60px;

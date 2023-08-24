@@ -2,7 +2,7 @@
     padding-top: 80px;
     width: 100%;
     box-sizing: border-box;
-    min-height: calc(100vh - 150px);
+    min-height: calc(100vh - 100px);
     padding-left: 250px;
     margin-bottom: 100px;
     display: flex;

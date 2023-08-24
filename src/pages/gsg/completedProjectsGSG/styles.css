@@ -1,6 +1,6 @@
 .webinar1{
     width: 100%;
-    min-height: calc(100vh - 150px);
+    min-height: calc(100vh - 100px);
     box-sizing: border-box;
     padding-left: 250px;
     padding-top: 80px;
