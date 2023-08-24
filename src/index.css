@@ -6,6 +6,7 @@
 @font-face {
   font-family: "mtavruli";
   src: url(./utils/fonts/mtavruli.ttf);
+  font-display: swap;
 }
 
 :root{
