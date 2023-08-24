@@ -23,7 +23,10 @@ export default function AboutUs() {
                 <br/> <b>დამფუძნებელი - ელენე მარიამიძე</b>
             </div>
 
+            
+
             <div className='links_in_about'>
+              <LinkButtonComponent link="/pages/gso/collaborations" name="საერთაშირისო ასოციაებთან კოლაბორაცია" />
               <LinkButtonComponent link="/pages/gso/completedProjectsGSO" name="ჩატარებული პროექტები" />
               <LinkButtonComponent link="/pages/gso/futureProjects" name="სამომავლო პროექტები" />
               <LinkButtonComponent link="/pages/gso/books" name="სახელმძღვანელოები" />

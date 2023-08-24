@@ -3,6 +3,7 @@ import folox from "../utils/images/patient/folfox_cover.webp"
 import cisplatin from "../utils/images/patient/ciplatin_cover.webp"
 import capox from "../utils/images/patient/capox_cover.webp"
 import capecitabine from "../utils/images/patient/capecitabine_cover.webp"
+import myths from '../utils/images/myths.webp'
 
 
 export const patientDBgso = [
@@ -34,5 +35,11 @@ export const patientDBgso = [
         title: 'კაპეციტაბინი -Capecitabine',
         cover: `${capecitabine}`,
         link: 'https://gso-gsgo.ge/fotPatients/Capecitabine.pdf'
+    },
+
+    {
+        title: 'გაეცანით მითებს ონკოლოგიურ დაავადებებზე და კიბოს პრევენციის მეთოდებს',
+        cover: `${myths}`,
+        link: 'https://oncolo.ge/2020/12/01/მითები-ონკოლოგიური-დაავა/'
     }
 ]

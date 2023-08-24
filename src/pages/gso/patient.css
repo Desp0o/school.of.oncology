@@ -22,6 +22,24 @@
     margin-bottom: 100px;
 }
 
+.topic_intro{
+    color: var(--gray);
+    padding: 0 100px;
+    margin-top: 50px;
+}
+
+.linkTo_topic{
+    color: var(--shidni);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+@media (max-width:1399px) {
+    .patient_doc_list{
+        margin-top: 50px;
+        padding: 0 130px;
+    }
+}
 
 @media (max-width:800px) {
     .patient{

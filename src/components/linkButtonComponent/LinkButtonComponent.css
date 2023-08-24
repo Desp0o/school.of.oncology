@@ -13,3 +13,10 @@
     transition: all .3s ease;
     color: #fff;
 }
+
+@media (max-width:800px) {
+    .btn_component{
+        padding: 15px 15px 15px 15px;
+        font-size: 14px;
+    }
+}

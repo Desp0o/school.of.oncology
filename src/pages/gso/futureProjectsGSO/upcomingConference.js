@@ -9,7 +9,7 @@ export default function UpcomingConference() {
 
         <div className='upgomint_content'>
             <p className='upcomin_txt'>თარიღი: <span>20.04.2024</span></p>
-            <p className='upcomin_txt'>მოწვეული სპიკერები: მატეო ალმბერტინი, ფატიმა კარდოზო, ევროკავშირიდან-მედდა, რადიაციული ონკოლოგი-ევროპიდან.</p>
+            <p className='upcomin_txt'>მოწვეული სპიკერები: მატეო ლამბერტინი, ფატიმა კარდოზო, ევროკავშირიდან-მედდა, რადიაციული ონკოლოგი-ევროპიდან.</p>
         </div>
         
 
