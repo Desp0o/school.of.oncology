@@ -1,6 +1,6 @@
 import React from 'react'
 import "./futureProjects.css"
-
+import esmo from "../../utils/images/siog_logo.webp"
 import CardComponent from '../../components/cardComponent/CardComponent'
 
 export default function FutureProjectsGSG() {
@@ -11,7 +11,7 @@ export default function FutureProjectsGSG() {
             <p className='compl_proj_title'>სამომავლო პროექტები</p>
 
             <div className='future_cards'>
-                <CardComponent cover={''} title="ESMO SIOG" link="/pages/gsg/completedProjectsGSG/upcomingConferenceGSG"/>
+                <CardComponent cover={esmo} title="ESMO SIOG" link="/pages/gsg/completedProjectsGSG/upcomingConferenceGSG"/>
             </div>
         
       </div>

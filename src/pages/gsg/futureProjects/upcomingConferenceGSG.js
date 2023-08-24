@@ -7,7 +7,7 @@ export default function UpcomingConferenceGSG() {
   return (
     <>
         <div className='upcoming'>
-        <p className='compl_proj_title'>ESMO SIOG გერიატრიული პაციენტების შეფასების გაიდლაინი</p>
+        <p className='compl_proj_title sgs_upcoming_title'>ESMO SIOG გერიატრიული პაციენტების შეფასების გაიდლაინი</p>
 
         <div className='upgomint_content sgs_logos'>
             <img src={siog} alt='company' className='gsgsUpcomingLogos' />
