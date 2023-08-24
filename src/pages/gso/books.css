@@ -15,10 +15,12 @@
 }
 
 .book_list{
-    margin-top: 30px;
+    padding: 0 50px;
+    margin-top: 50px;
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 40px 20px;
 }
 
 @media (max-width:800px) {

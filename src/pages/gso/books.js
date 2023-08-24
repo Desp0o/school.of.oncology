@@ -16,6 +16,7 @@ export default function Books() {
                             title={book.title}
                             cover={book.cover}
                             link={book.link}
+                            key={index}
                     />
                 )
                })}

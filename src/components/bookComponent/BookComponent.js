@@ -4,7 +4,7 @@ import "./BookComponent.css"
 
 export default function BookComponent(props) {
   return (
-    <Link to={props.link}>
+    <Link to={props.link} target='_blank'rel="noopener noreferrer">
         <div className='book_container'>
             <img src={props.cover} alt='book cover' className='book_cover' />
 

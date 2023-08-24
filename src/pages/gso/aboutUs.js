@@ -2,7 +2,6 @@ import React from 'react'
 import "./aboutUs.css"
 
 import gso from "../../utils/images/GeorgianSchoolOf oncology.webp"
-import Footer from '../../components/footer/footer'
 import LinkButtonComponent from '../../components/linkButtonComponent/LinkButtonComponent'
 
 export default function AboutUs() {

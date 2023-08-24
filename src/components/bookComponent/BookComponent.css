@@ -1,6 +1,7 @@
 .book_cover{
     height: 150px;
     width: auto;
+    transition: all .3s ease;
 }
 
 .book_container{
@@ -15,4 +16,19 @@
     width: 250px;
     text-align: center;
     color: var(--title-color);
+}
+
+.book_container:hover .book_cover{
+    transform: scale(1.05);
+    transition: all .3s ease;
+    margin-top: -5px;
+}
+
+
+@media (max-width:800px) {
+    .book_container:hover .book_cover{
+        transform: unset;
+        transition: unset;
+        margin-top: unset;
+    }
 }
