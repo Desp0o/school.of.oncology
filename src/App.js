@@ -14,6 +14,7 @@ import Books from "./pages/gso/books";
 import Patient from "./pages/gso/patient";
 import BooksGSG from "./pages/gsg/booksGSG";
 import CompletedProjectsGSG from "./pages/gsg/completedProjectsGSG";
+import Webinar1 from "./pages/gsg/completedProjectsGSG/webinar1";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
 
         <Route exact path="/pages/gsg/booksGSG" element={<BooksGSG />}/>
         <Route exact path="/pages/gsg/completedProjectsGSG" element={<CompletedProjectsGSG />} />
+        <Route exact path="/pages/gsg/completedProjectsGSG/webinar1" element={<Webinar1 />} />
       </Routes>
       <Footer />
     </>

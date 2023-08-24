@@ -1,0 +1,34 @@
+.webinar1{
+    width: 100%;
+    min-height: calc(100vh - 150px);
+    box-sizing: border-box;
+    padding-left: 250px;
+    padding-top: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.webinar_img{
+    width: 600px;
+    max-width: 90%;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+@media (max-width:800px) {
+    .webinar1{
+        width: 100%;
+        min-height: calc(100vh - 150px);
+        box-sizing: border-box;
+        padding-left: 0px;
+        padding-top: 120px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
