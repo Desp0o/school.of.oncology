@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import "./completedProjectsGSO.css"
 import { gsoConferences } from '../../components/gsoDB'
-import CardComponent from "../../components/cardComponent/CardComponent"
 import { Link } from 'react-router-dom'
 
 export default function CompletedProjectsGSO() {

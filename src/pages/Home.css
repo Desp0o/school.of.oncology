@@ -1,11 +1,13 @@
 .main_page{
     width: 100%;
+    min-height: calc(100vh - 150px);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left:250px;
     margin-bottom: 100px;
+    
 }
 
 .main_logos{
@@ -37,6 +39,7 @@
 }
 
 .form{
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -98,6 +101,22 @@
 
 .logoTXT2{
     color: var(--gray);
+}
+
+.verified{
+    width: 280px;
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.verified_active{
+    display: block;
 }
 
 @media (max-width:800px) {
@@ -172,4 +191,10 @@
         width: 90%;
     }
 
+}
+
+@media (min-width:1600px) {
+    .main_page{
+        margin-bottom:0px;
+    }
 }
