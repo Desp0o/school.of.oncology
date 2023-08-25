@@ -20,31 +20,31 @@ export const BooksDB = [
     },
 
     {
-        title: 'Handbook of Quality of Life In Cancer',
+        title: 'Abeloff’s Clinical Oncology',
         cover: `${clinicalOncology}`,
         link: 'https://gso-gsgo.ge/books/Abeloff’s Clinical Oncology (2020).pdf'
     },
 
     {
-        title: 'Handbook of Quality of Life In Cancer',
+        title: 'The MD Anderson Manual of Medical Oncology, Fourth Edition-2022',
         cover: `${theMdAnderson}`,
         link: 'https://gso-gsgo.ge/books/The MD Anderson Manual of Medical Oncology, Fourth Edition-2022.pdf'
     },
 
     {
-        title: 'Handbook of Quality of Life In Cancer',
+        title: 'The Golden Guide to Oncologic Pharmacy',
         cover: `${godlenGuide}`,
         link: 'https://gso-gsgo.ge/books/The Golden Guide to Oncologic Pharmacy.pdf'
     }, 
     
     {
-        title: 'Handbook of Quality of Life In Cancer',
+        title: 'Practical Medical Oncology Textbook, springer',
         cover: `${practicalMedical}`,
         link: 'https://gso-gsgo.ge/books/Practical Medical Oncology Textbook  , springer.pdf'
     },
 
     {
-        title: 'Handbook of Quality of Life In Cancer',
+        title: 'Oxford Desk Reference - Oncology, 2e',
         cover: `${oxfordDesk}`,
         link: 'https://gso-gsgo.ge/books/Oxford Desk Reference - Oncology, 2e .pdf'
     },
