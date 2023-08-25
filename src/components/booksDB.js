@@ -8,6 +8,8 @@ import lisaH from "../utils/images/books/lisa H.webp"
 
 import geriatricOncology from "../utils/images/books/geriatricOncology_cover.webp"
 import geriatricAssasment from "../utils/images/books/geriatricAssasment_cover.webp"
+import cardioOncology from "../utils/images/books/cardioOncology_cover.webp"
+import hermatology from "../utils/images/books/Hermatology_cover.webp"
 
 export const BooksDB = [
     {
@@ -50,6 +52,18 @@ export const BooksDB = [
         title: 'Cancer Immunotherapy Principles and Practice Reflects Major Advances in Field of Immuno-Oncology and Cancer Immunology',
         cover: `${lisaH}`,
         link: 'https://gso-gsgo.ge/books/Cancer Immunotherapy Principles and Practice_ Reflects Major Advances in Field of Immuno-Oncology and Cancer Immunology.pdf'
+    },
+
+    {
+        title: 'Cardio-Oncology Practice Manual A Companion to Braunwalds Heart',
+        cover: `${cardioOncology}`,
+        link: 'https://gso-gsgo.ge/books/Cardio-Oncology Practice Manual A Companion to Braunwalds Heart .pdf'
+    },
+
+    {
+        title: 'Hematology - Oncology Therapy 2014',
+        cover: `${hermatology}`,
+        link: 'https://gso-gsgo.ge/books/Hematology - Oncology Therapy  2014.pdf'
     },
 ]
 

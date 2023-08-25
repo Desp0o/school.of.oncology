@@ -24,6 +24,13 @@
     gap: 20px;
 }
 
+@media (max-width:1399px) {
+    .conference_cards{
+        align-items: center;
+        padding: 0 130px;
+    }
+}
+
 @media (max-width:800px) {
     .completed_projects{
         padding-left: 0px;

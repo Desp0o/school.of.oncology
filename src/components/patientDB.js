@@ -4,6 +4,9 @@ import cisplatin from "../utils/images/patient/ciplatin_cover.webp"
 import capox from "../utils/images/patient/capox_cover.webp"
 import capecitabine from "../utils/images/patient/capecitabine_cover.webp"
 import myths from '../utils/images/myths.webp'
+import care from '../utils/images/patient/care_cover.webp'
+import feeding from '../utils/images/patient/feeding_cover.webp'
+import practicalHandbook from '../utils/images/patient/practicalHandbook_cover.webp'
 
 
 export const patientDBgso = [
@@ -41,5 +44,23 @@ export const patientDBgso = [
         title: 'გაეცანით მითებს ონკოლოგიურ დაავადებებზე და კიბოს პრევენციის მეთოდებს',
         cover: `${myths}`,
         link: 'https://oncolo.ge/2020/12/01/მითები-ონკოლოგიური-დაავა/'
+    },
+
+    {
+        title: 'ზრუნვა ემოციურ ჯანრთელობაზე',
+        cover: `${care}`,
+        link: 'https://gso-gsgo.ge/fotPatients/ზრუნვა ემოციურ ჯანრთელობაზე.pdf'
+    },
+
+    {
+        title: 'კვება',
+        cover: `${feeding}`,
+        link: 'https://gso-gsgo.ge/fotPatients/კვება.pdf'
+    },
+
+    {
+        title: 'პრაქტიკული სახლემძღვანელო მეტი მოძრაობისთვის',
+        cover: `${practicalHandbook}`,
+        link: 'https://gso-gsgo.ge/fotPatients/პრაქტიკული სახლემძღვანელო მეტი მოძრაობისთვის.pdf'
     }
 ]

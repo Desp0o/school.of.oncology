@@ -51,3 +51,14 @@
         gap: 40px;
     }
 }
+
+@media (min-width:1600px) {
+    .book_list{
+        padding: 0 160px;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 40px 20px;
+    }
+}

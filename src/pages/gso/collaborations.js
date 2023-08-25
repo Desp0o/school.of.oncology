@@ -7,7 +7,7 @@ export default function Collaborations() {
   return (
     <>
       <div className='patient'>
-        <p className='patient_title'>საერთაშირისო ასოციაებთან კოლაბორაცია</p>
+        <p className='patient_title'>საერთაშორისო ასოციაცებთან კოლაბორაცია</p>
 
         <div className='patient_doc_list'>
             {
