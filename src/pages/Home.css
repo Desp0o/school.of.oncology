@@ -21,7 +21,6 @@
 }
 
 .logo2{
-    margin-top: 7px;
     width: auto;
     height: 60px;
     cursor: pointer;
@@ -101,6 +100,7 @@
 
 .logoTXT2{
     color: var(--gray);
+    margin-top: 15px;
 }
 
 .verified{
