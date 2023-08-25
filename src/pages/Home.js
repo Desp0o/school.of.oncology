@@ -198,7 +198,8 @@ export default function Home(){
                     </div>
 
                     <div className="academic_status">
-                    <select  name="status"  className="all_input" onChange={valuesHandler} ref={statusRef} value={values.status}>
+                    <label htmlFor="selectID" />
+                    <select  name="status" id="selectID"  className="all_input" onChange={valuesHandler} ref={statusRef} value={values.status}>
                         <option value=""  hidden>აირჩიეთ აკადემიური ხარისხი</option>
                         <option>სტუდენტი</option>
                         <option>რეზიდენტი</option>

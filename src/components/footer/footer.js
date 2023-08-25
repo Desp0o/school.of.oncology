@@ -11,7 +11,7 @@ export default function Footer() {
           </a>
 
           <div className=''>
-            <p>gsgso.info@gmail.com</p>
+            <p>gsgo.info@gmail.com</p>
             <p>geo.gso.info@gmail.com</p>
           </div>
 
