@@ -10,6 +10,7 @@ import geriatricOncology from "../utils/images/books/geriatricOncology_cover.web
 import geriatricAssasment from "../utils/images/books/geriatricAssasment_cover.webp"
 import cardioOncology from "../utils/images/books/cardioOncology_cover.webp"
 import hermatology from "../utils/images/books/Hermatology_cover.webp"
+import esmoBooks from "../utils/images/books/esmo books logo.jpeg"
 
 export const BooksDB = [
     {
@@ -64,6 +65,12 @@ export const BooksDB = [
         title: 'Hematology - Oncology Therapy 2014',
         cover: `${hermatology}`,
         link: 'https://gso-gsgo.ge/books/Hematology - Oncology Therapy  2014.pdf'
+    },
+
+    {
+        title: 'ESMO BOOKS',
+        cover: `${esmoBooks}`,
+        link: 'https://oncologypro.esmo.org/education-library/esmo-books'
     },
 ]
 

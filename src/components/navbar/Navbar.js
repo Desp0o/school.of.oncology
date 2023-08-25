@@ -49,7 +49,7 @@ export default function Navbar() {
               <Link to="/pages/gso/AboutUs" className='nav_links'>ჩვენ შესახებ</Link>
               <Link to="/pages/gso/completedProjectsGSO" className='nav_links'>ჩატარებული პროექტები</Link>
               <Link to="/pages/gso/futureProjects" className='nav_links'>სამომავლო პროექტები</Link>
-              <Link to="/pages/gso/collaborations" className='nav_links'>საერთაშორისო ასოციაცებთან კოლაბორაცია</Link>
+              <Link to="/pages/gso/collaborations" className='nav_links'>საერთაშორისო ასოციაციებთან კოლაბორაცია</Link>
               <Link to="/pages/gso/books" className='nav_links'>სახელმძღვანელოები</Link>
               <Link to="/pages/gso/patient" className='nav_links'>პაციენტებისთვის</Link>
               <Link to="https://www.facebook.com/groups/178935787469269" target='_blank' rel='noopener noreferrer' className='nav_links'>ფეისბუქ ჯგუფი</Link>
@@ -83,7 +83,7 @@ export default function Navbar() {
                 <Link to="/pages/gso/AboutUs" className='nav_links' onClick={linkHandler}>ჩვენ შესახებ</Link>
                 <Link to="/pages/gso/completedProjectsGSO" className='nav_links' onClick={linkHandler}>ჩატარებული პროექტები</Link>
                 <Link to="/pages/gso/futureProjects" className='nav_links' onClick={linkHandler}>სამომავლო პროექტები</Link>
-                <Link to="/pages/gso/collaborations" className='nav_links' onClick={linkHandler}>საერთაშორისო ასოციაცებთან კოლაბორაცია</Link>
+                <Link to="/pages/gso/collaborations" className='nav_links' onClick={linkHandler}>საერთაშორისო ასოციაციებთან კოლაბორაცია</Link>
                 <Link to="/pages/gso/books" className='nav_links' onClick={linkHandler}>სახელმძღვანელოები</Link>
                 <Link to="/pages/gso/patient" className='nav_links' onClick={linkHandler}>პაციენტებისთვის</Link>
                 <Link to="https://www.facebook.com/groups/178935787469269" target='_blank' rel='noopener noreferrer' className='nav_links' onClick={linkHandler}>ფეისბუქ ჯგუფი</Link>
