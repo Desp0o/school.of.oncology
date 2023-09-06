@@ -12,6 +12,11 @@ import cardioOncology from "../utils/images/books/cardioOncology_cover.webp"
 import hermatology from "../utils/images/books/Hermatology_cover.webp"
 import esmoBooks from "../utils/images/books/esmo books logo.jpeg"
 
+import TextBookofUncommonCancer from "../utils/images/books/TextBookofUncommonCancer.png"
+import atlasPET from "../utils/images/books/atlasPET.png"
+import gynecologicOncologyHandbook from "../utils/images/books/gynecologicOncologyHandbook.png"
+import howToWrie from "../utils/images/books/howToWrie.png"
+
 export const BooksDB = [
     {
         title: 'Handbook of Quality of Life In Cancer',
@@ -65,6 +70,30 @@ export const BooksDB = [
         title: 'Hematology - Oncology Therapy 2014',
         cover: `${hermatology}`,
         link: 'https://gso-gsgo.ge/books/Hematology - Oncology Therapy  2014.pdf'
+    },
+
+    {
+        title: 'Textbook of Uncommon Cancer -2017',
+        cover: `${TextBookofUncommonCancer}`,
+        link: 'https://gso-gsgo.ge/books/Textbook of Uncommon Cancer -2017.pdf'
+    },
+
+    {
+        title: 'Atlas of PET CT Imaging in Oncology 2015',
+        cover: `${atlasPET}`,
+        link: 'https://gso-gsgo.ge/books/Atlas-of-PET-CT-Imaging-in-Oncology-2015.pdf'
+    },
+
+    {
+        title: 'Gynecologic Oncology Handbook(2023)',
+        cover: `${gynecologicOncologyHandbook}`,
+        link: 'https://gso-gsgo.ge/books/Gynecologic Oncology Handbook(2023).pdf'
+    },
+
+    {
+        title: 'How to Write Better Medical Papers (Michael Hanna)',
+        cover: `${howToWrie}`,
+        link: 'https://gso-gsgo.ge/books/How to Write Better Medical Papers (Michael Hanna).pdf'
     },
 
     {
