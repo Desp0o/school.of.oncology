@@ -6,19 +6,19 @@ import conference3 from "../utils/images/conference3.webp"
 export const gsoConferences = [
     {
         image: `${conference1}`,
-        link:'/pages/gso/completedProjectsGSO/conference1',
+        link:'/gso/completedProjectsGSO/conference1',
         title:'საერთაშორისო კონფერენცია 1',
     },
 
     {
         image: `${conference2}`,
-        link:'/pages/gso/completedProjectsGSO/conference2',
+        link:'/gso/completedProjectsGSO/conference2',
         title:'საერთაშორისო კონფერენცია 2'
     },
 
     {
         image: `${conference3}`,
-        link:'/pages/gso/completedProjectsGSO/conference3',
+        link:'/gso/completedProjectsGSO/conference3',
         title:'საერთაშორისო კონფერენცია 3'
     },
     

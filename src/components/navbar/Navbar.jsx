@@ -46,12 +46,12 @@ export default function Navbar() {
             </div>
 
             <div className='links'>
-              <Link to="/pages/gso/AboutUs" className='nav_links'>ჩვენ შესახებ</Link>
-              <Link to="/pages/gso/completedProjectsGSO" className='nav_links'>ჩატარებული პროექტები</Link>
-              <Link to="/pages/gso/futureProjects" className='nav_links'>სამომავლო პროექტები</Link>
-              <Link to="/pages/gso/collaborations" className='nav_links'>საერთაშორისო ასოციაციებთან კოლაბორაცია</Link>
-              <Link to="/pages/gso/books" className='nav_links'>სახელმძღვანელოები</Link>
-              <Link to="/pages/gso/patient" className='nav_links'>პაციენტებისთვის</Link>
+              <Link to="/gso/AboutUs" className='nav_links'>ჩვენ შესახებ</Link>
+              <Link to="/gso/completedProjectsGSO" className='nav_links'>ჩატარებული პროექტები</Link>
+              <Link to="/gso/futureProjects" className='nav_links'>სამომავლო პროექტები</Link>
+              <Link to="/gso/collaborations" className='nav_links'>საერთაშორისო ასოციაციებთან კოლაბორაცია</Link>
+              <Link to="/gso/books" className='nav_links'>სახელმძღვანელოები</Link>
+              <Link to="/gso/patient" className='nav_links'>პაციენტებისთვის</Link>
               <Link to="https://www.facebook.com/groups/178935787469269" target='_blank' rel='noopener noreferrer' className='nav_links'>ფეისბუქ ჯგუფი</Link>
             </div>
           </div>
@@ -62,10 +62,10 @@ export default function Navbar() {
             </div>
 
             <div className='links'>
-              <Link to="/pages/gsg/gsgAbout" className='nav_links'>ჩვენ შესახებ</Link>
-              <Link to="/pages/gsg/completedProjectsGSG" className='nav_links'>ჩატარებული პროექტები</Link>
-              <Link to="/pages/gsg/futureProjectsGSG" className='nav_links'>სამომავლო პროექტები</Link>
-              <Link to="/pages/gsg/booksGSG" className='nav_links'>სახელმძღვანელოები</Link>
+              <Link to="/gsg/gsgAbout" className='nav_links'>ჩვენ შესახებ</Link>
+              <Link to="/gsg/completedProjectsGSG" className='nav_links'>ჩატარებული პროექტები</Link>
+              <Link to="/gsg/futureProjectsGSG" className='nav_links'>სამომავლო პროექტები</Link>
+              <Link to="/gsg/booksGSG" className='nav_links'>სახელმძღვანელოები</Link>
               <Link to="https://www.facebook.com/groups/178935787469269" target='_blank' rel='noopener noreferrer' className='nav_links'>ფეისბუქ ჯგუფი</Link>
             </div>
           </div>
@@ -80,12 +80,12 @@ export default function Navbar() {
               </div>
 
               <div className='links'>
-                <Link to="/pages/gso/AboutUs" className='nav_links' onClick={linkHandler}>ჩვენ შესახებ</Link>
-                <Link to="/pages/gso/completedProjectsGSO" className='nav_links' onClick={linkHandler}>ჩატარებული პროექტები</Link>
-                <Link to="/pages/gso/futureProjects" className='nav_links' onClick={linkHandler}>სამომავლო პროექტები</Link>
-                <Link to="/pages/gso/collaborations" className='nav_links' onClick={linkHandler}>საერთაშორისო ასოციაციებთან კოლაბორაცია</Link>
-                <Link to="/pages/gso/books" className='nav_links' onClick={linkHandler}>სახელმძღვანელოები</Link>
-                <Link to="/pages/gso/patient" className='nav_links' onClick={linkHandler}>პაციენტებისთვის</Link>
+                <Link to="/gso/AboutUs" className='nav_links' onClick={linkHandler}>ჩვენ შესახებ</Link>
+                <Link to="/gso/completedProjectsGSO" className='nav_links' onClick={linkHandler}>ჩატარებული პროექტები</Link>
+                <Link to="/gso/futureProjects" className='nav_links' onClick={linkHandler}>სამომავლო პროექტები</Link>
+                <Link to="/gso/collaborations" className='nav_links' onClick={linkHandler}>საერთაშორისო ასოციაციებთან კოლაბორაცია</Link>
+                <Link to="/gso/books" className='nav_links' onClick={linkHandler}>სახელმძღვანელოები</Link>
+                <Link to="/gso/patient" className='nav_links' onClick={linkHandler}>პაციენტებისთვის</Link>
                 <Link to="https://www.facebook.com/groups/178935787469269" target='_blank' rel='noopener noreferrer' className='nav_links' onClick={linkHandler}>ფეისბუქ ჯგუფი</Link>
               </div>
             </div>
@@ -96,10 +96,10 @@ export default function Navbar() {
             </div>
 
             <div className='links'>
-              <Link to="/pages/gsg/gsgAbout" className='nav_links' onClick={linkHandler}>ჩვენ შესახებ</Link>
-              <Link to="/pages/gsg/completedProjectsGSG" className='nav_links' onClick={linkHandler}>ჩატარებული პროექტები</Link>
-              <Link to="/pages/gsg/futureProjectsGSG" className='nav_links' onClick={linkHandler}>სამომავლო პროექტები</Link>
-              <Link to="/pages/gsg/booksGSG" className='nav_links' onClick={linkHandler}>სახელმძღვანელოები</Link>
+              <Link to="/gsg/gsgAbout" className='nav_links' onClick={linkHandler}>ჩვენ შესახებ</Link>
+              <Link to="/gsg/completedProjectsGSG" className='nav_links' onClick={linkHandler}>ჩატარებული პროექტები</Link>
+              <Link to="/gsg/futureProjectsGSG" className='nav_links' onClick={linkHandler}>სამომავლო პროექტები</Link>
+              <Link to="/gsg/booksGSG" className='nav_links' onClick={linkHandler}>სახელმძღვანელოები</Link>
               <Link to="https://www.facebook.com/groups/178935787469269" target='_blank' rel='noopener noreferrer' className='nav_links' onClick={linkHandler}>ფეისბუქ ჯგუფი</Link>
             </div>
           </div>

@@ -26,11 +26,11 @@ export default function AboutUs() {
             
 
             <div className='links_in_about'>
-              <LinkButtonComponent link="/pages/gso/collaborations" name="საერთაშირისო ასოციაებთან კოლაბორაცია" />
-              <LinkButtonComponent link="/pages/gso/completedProjectsGSO" name="ჩატარებული პროექტები" />
-              <LinkButtonComponent link="/pages/gso/futureProjects" name="სამომავლო პროექტები" />
-              <LinkButtonComponent link="/pages/gso/books" name="სახელმძღვანელოები" />
-              <LinkButtonComponent link="/pages/gso/patient" name="პაციენტებისთვის" />
+              <LinkButtonComponent link="/gso/collaborations" name="საერთაშირისო ასოციაებთან კოლაბორაცია" />
+              <LinkButtonComponent link="/gso/completedProjectsGSO" name="ჩატარებული პროექტები" />
+              <LinkButtonComponent link="/gso/futureProjects" name="სამომავლო პროექტები" />
+              <LinkButtonComponent link="/gso/books" name="სახელმძღვანელოები" />
+              <LinkButtonComponent link="/gso/patient" name="პაციენტებისთვის" />
             </div>
 
         </div>

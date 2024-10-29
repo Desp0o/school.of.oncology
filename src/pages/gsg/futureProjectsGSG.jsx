@@ -11,7 +11,7 @@ export default function FutureProjectsGSG() {
             <p className='compl_proj_title'>სამომავლო პროექტები</p>
 
             <div className='future_cards'>
-                <CardComponent cover={esmo} title="ESMO SIOG" link="/pages/gsg/completedProjectsGSG/upcomingConferenceGSG"/>
+                <CardComponent cover={esmo} title="ESMO SIOG" link="/gsg/completedProjectsGSG/upcomingConferenceGSG"/>
             </div>
         
       </div>

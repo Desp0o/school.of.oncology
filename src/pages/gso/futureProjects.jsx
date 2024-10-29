@@ -1,6 +1,7 @@
 import React from 'react'
 import "./futureProjects.css"
 import futureCover from "../../utils/images/futureProjectGSO.webp"
+import futureConfernce from "../../utils/images/fucuteConference2.webp"
 import CardComponent from '../../components/cardComponent/CardComponent'
 
 export default function FutureProjects() {
@@ -11,7 +12,8 @@ export default function FutureProjects() {
             <p className='compl_proj_title'>სამომავლო პროექტები</p>
 
             <div className='future_cards'>
-                <CardComponent height={'fit-content'} cover={futureCover} title="20.04.2024" link="/pages/gso/completedProjectsGSO/upcomingConference"/>
+                <CardComponent height={'fit-content'} cover={futureCover} title="20.04.2024" link="/gso/featureGSO/upcomingConference"/>
+                <CardComponent height={'fit-content'} cover={futureConfernce} title="02.11.2024" link="/gso/featureGSO/esmoEvent"/>
             </div>
         
       </div>

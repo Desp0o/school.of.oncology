@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
-    "lightbox.js-react": "^1.0.5",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "lightbox.js-react": "^1.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-pdf": "^9.1.1",
     "react-router-dom": "^6.22.3"
   },
   "devDependencies": {

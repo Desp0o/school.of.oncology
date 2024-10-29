@@ -18,6 +18,7 @@ import Webinar1 from "./pages/gsg/completedProjectsGSG/webinar1";
 import FutureProjectsGSG from "./pages/gsg/futureProjectsGSG";
 import UpcomingConferenceGSG from "./pages/gsg/futureProjects/upcomingConferenceGSG";
 import Collaborations from "./pages/gso/collaborations";
+import UpcomingConference1 from "./pages/gso/futureProjectsGSO/upcomingConference1";
 
 function App() {
   return (
@@ -25,24 +26,25 @@ function App() {
     <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/pages/gso/AboutUs" element={<AboutUs />} />
-        <Route exact path="/pages/gsg/gsgAbout" element={<GsgAbout />} />
-        <Route exact path="/pages/gso/completedProjectsGSO" element={<CompletedProjectsGSO />} />
-        <Route exact path="/pages/gso/completedProjectsGSO/conference1" element={<Conference1 />}/>
-        <Route exact path="/pages/gso/completedProjectsGSO/conference2" element={<Conference2 />}/>
-        <Route exact path="/pages/gso/futureProjects" element={<FutureProjects />}/>
-        <Route exact path="/pages/gso/completedProjectsGSO/upcomingConference" element={<UpcomingConference />}/>
-        <Route exact path="/pages/gso/books" element={<Books />}/>
-        <Route exact path="/pages/gso/patient" element={<Patient />}/>
-        <Route exact path="/pages/gso/completedProjectsGSO/conference3" element={<Conference3 />}/>
-        <Route exact path="/pages/gso/collaborations" element={<Collaborations />}/>
+        <Route exact path="/gso/AboutUs" element={<AboutUs />} />
+        <Route exact path="/gsg/gsgAbout" element={<GsgAbout />} />
+        <Route exact path="/gso/completedProjectsGSO" element={<CompletedProjectsGSO />} />
+        <Route exact path="/gso/completedProjectsGSO/conference1" element={<Conference1 />}/>
+        <Route exact path="/gso/completedProjectsGSO/conference2" element={<Conference2 />}/>
+        <Route exact path="/gso/futureProjects" element={<FutureProjects />}/>
+        <Route exact path="/gso/featureGSO/upcomingConference" element={<UpcomingConference />}/>
+        <Route exact path="/gso/featureGSO/esmoEvent" element={<UpcomingConference1 />}/>
+        <Route exact path="/gso/books" element={<Books />}/>
+        <Route exact path="/gso/patient" element={<Patient />}/>
+        <Route exact path="/gso/completedProjectsGSO/conference3" element={<Conference3 />}/>
+        <Route exact path="/gso/collaborations" element={<Collaborations />}/>
 
 
-        <Route exact path="/pages/gsg/booksGSG" element={<BooksGSG />}/>
-        <Route exact path="/pages/gsg/completedProjectsGSG" element={<CompletedProjectsGSG />} />
-        <Route exact path="/pages/gsg/completedProjectsGSG/webinar1" element={<Webinar1 />} />
-        <Route exact path="/pages/gsg/futureProjectsGSG" element={<FutureProjectsGSG />} />
-        <Route exact path="/pages/gsg/completedProjectsGSG/upcomingConferenceGSG" element={<UpcomingConferenceGSG />} />
+        <Route exact path="/gsg/booksGSG" element={<BooksGSG />}/>
+        <Route exact path="/gsg/completedProjectsGSG" element={<CompletedProjectsGSG />} />
+        <Route exact path="/gsg/completedProjectsGSG/webinar1" element={<Webinar1 />} />
+        <Route exact path="/gsg/futureProjectsGSG" element={<FutureProjectsGSG />} />
+        <Route exact path="/gsg/completedProjectsGSG/UpcomingConferenceGSG" element={<UpcomingConferenceGSG />} />
       </Routes>
       <Footer />
     </>

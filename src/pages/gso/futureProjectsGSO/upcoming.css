@@ -17,6 +17,32 @@
     color: var(--gray);
 }
 
+.pdfVc{
+    padding-top: 50px;
+    padding-left: 125px;
+    width: 100% !important;
+}
+
+.rpv-core__inner-page{
+    /* left: 50% !important;
+    transform: translateX(-50%) !important; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.rpv-core__text-layer{
+    display: none !important;
+}
+
+.conference2gsoTitle{
+    text-align: center;
+    padding-left: 250px;
+    color:var(--title-color);
+    padding-top: 50px;
+}
+
 @media (max-width:800px) {
     .upcoming{
         padding-top: 120px;
@@ -40,5 +66,18 @@
         gap: 10px;
 
         padding-left: 50px;
+    }
+
+    .pdfVc{
+        padding-top: 50px;
+        padding-left: 0px;
+        width: 100% !important;
+    }
+
+    .conference2gsoTitle{
+        text-align: center;
+        padding-left: 0;
+        color:var(--title-color);
+        padding-top: 120px;
     }
 }

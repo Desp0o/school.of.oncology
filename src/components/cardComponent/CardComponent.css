@@ -35,6 +35,12 @@
     font-size: 20px;
 }
 
+.cardMaxHeight{
+    min-height: 475px;
+
+    max-height: 475px;
+}
+
 @media (max-width:1399px) {
     .card{
         position: relative;

@@ -11,6 +11,13 @@
 
 }
 
+.future_cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .future_programs{
     width: 100%;
 }
