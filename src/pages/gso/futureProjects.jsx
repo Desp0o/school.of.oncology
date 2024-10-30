@@ -1,7 +1,7 @@
 import React from 'react'
 import "./futureProjects.css"
 import futureCover from "../../utils/images/futureProjectGSO.webp"
-import futureConfernce from "../../utils/images/fucuteConference2.webp"
+import futureConfernce from "/images/Capture2.jpg"
 import CardComponent from '../../components/cardComponent/CardComponent'
 
 export default function FutureProjects() {
